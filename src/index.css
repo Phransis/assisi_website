@@ -94,14 +94,24 @@
 
 }
 
-.tres { grid-area: tres; }
+.tres { grid-area: tres;
+  background-color: rgb(103, 102, 102);
+}
 
-.cuatro { grid-area: cuatro; }
+.cuatro { grid-area: cuatro;
+  width: 100%;
+}
 
 .assisi3{
   width: 100%;
 }
 
+.portrait{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: overline;
+}
 
 body {
   margin: 0;

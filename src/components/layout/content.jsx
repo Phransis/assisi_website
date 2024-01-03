@@ -1,6 +1,8 @@
 import React from "react";
 import image from "../assets/assisi.jpg";
 import image3 from "../assets/assisi3.jpg";
+import image4 from "../assets/assisi2.jpg";
+
 
 function Content() {
   return (
@@ -29,15 +31,21 @@ function Content() {
           </div>
 
           <div>
-            <p className="bank-name">Standard Chatered Bank</p>
+            <p className="bank-name">EcoBank</p>
             Account Name: St Francis of Assisi Catholic Church
             <p>Account Number: 0000000000000</p>
           </div>
 
           
         </div>
-        <div class="tres">Tres</div>
-        <div class="cuatro">Cuatro</div>
+        <div class="tres">
+          Contact Us
+          <p>Love to hear from you</p>
+        </div>
+        <div class="cuatro">
+        <img src={image4} alt="" className="image-con"></img>
+        <p className="portrait">Portrait of St Francis of Assisi</p>
+        </div>
       </div>
     </div>
   );
