@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 @media (max-width: 600px){
   .test{
-    color: rgb(247, 57, 237);
+    color: rgb(233, 100, 5);
     font-size: 1.5em;
   }
 }
@@ -11,8 +11,8 @@
 }
 
 .navbar{
-  /* position: fixed;
-  top: 0;
+  position: fixed;
+  top: 10px; /*this has created the space on top of the header/navbar, if it's 0px; there won't be any space created*/
   right: 0;
   left: 0;
   z-index: 1030;
@@ -20,7 +20,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 4px 20px 4px 12px;
-  backdrop-filter: blur(5px); */
+  backdrop-filter: blur(5px);
 }
 
 .navbar-list ul li{
@@ -30,6 +30,7 @@
   justify-content: center;
   margin-right: 10px;
   text-transform: uppercase;
+  font-weight: bolder;
 }
 
 .navbar-list {
@@ -39,9 +40,45 @@
   padding: 4px 20px 4px 12px;
 }
 
-.image-con{
-  
+.image{
+  height: 70px;
+  display: inline;
+  margin-right: 20px;
 }
+.image-con{
+  width: 100%;
+  height: auto;
+}
+
+.church-name{
+  font-family: Amore Kiena;
+  font-size: 30px;
+}
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "uno dos"
+    "tres cuatro";
+}
+
+.uno { grid-area: uno; }
+
+.dos { grid-area: dos; }
+
+.tres { grid-area: tres; }
+
+.cuatro { grid-area: cuatro; }
+
+.assisi3{
+  width: 100%;
+}
+
 
 body {
   margin: 0;
@@ -52,6 +89,5 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Montserrat', sans-serif;
 }

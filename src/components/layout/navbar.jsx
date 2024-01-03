@@ -1,10 +1,13 @@
 import React from 'react'
+import image from "../assets/assisi2.jpg"
+
 
 function Navbar() {
   return (
     <div className='navbar'>
         <div className='navbar-list'>
           <ul>
+          <img src={image} alt="" className="image"></img>
             <a href='/'><li>Home</li></a>
             <a href='about_us'><li>About us</li></a>
             <a href='societies'><li>Societies</li></a>
