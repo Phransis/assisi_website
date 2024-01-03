@@ -12,9 +12,30 @@ function Content() {
           <div className="church-name">
             St. Francis of Assisi Catholic Church
           </div>
+          <p className="account">Parish MoMo Account</p>
+
           <img src={image3} alt="assisi3" className="assisi3"></img>
         </div>
-        <div class="dos">Dos</div>
+        <div class="dos">
+          <div className="church-name">
+            St. Francis of Assisi Catholic Church
+          </div>
+          <p className="account">Parish Bank Account</p>
+
+          <div>
+            <p className="bank-name">Standard Chatered Bank</p>
+            Account Name: St Francis of Assisi Catholic Church
+            <p>Account Number: 0000000000000</p>
+          </div>
+
+          <div>
+            <p className="bank-name">Standard Chatered Bank</p>
+            Account Name: St Francis of Assisi Catholic Church
+            <p>Account Number: 0000000000000</p>
+          </div>
+
+          
+        </div>
         <div class="tres">Tres</div>
         <div class="cuatro">Cuatro</div>
       </div>
