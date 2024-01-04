@@ -18,6 +18,9 @@ function Content() {
 
           <img src={image3} alt="assisi3" className="assisi3"></img>
         </div>
+
+
+
         <div class="dos">
           <div className="church-name">
             St. Francis of Assisi Catholic Church
@@ -34,17 +37,29 @@ function Content() {
             <p className="bank-name">EcoBank</p>
             Account Name: St Francis of Assisi Catholic Church
             <p>Account Number: 0000000000000</p>
-          </div>
+          </div> 
+        </div>
 
-          
-        </div>
+
+
         <div class="tres">
-          Contact Us
-          <p>Love to hear from you</p>
+          <div className="contact">Contact Us</div>
+          <p className="love">Love to hear from you</p>
+
+          <label>Your name</label>
+          <p>
+            <input type="text"></input>
+          </p>
+
         </div>
+
+
+
         <div class="cuatro">
-        <img src={image4} alt="" className="image-con"></img>
+        <img src={image4} alt="" className="assisi4"></img>
         <p className="portrait">Portrait of St Francis of Assisi</p>
+
+
         </div>
       </div>
     </div>
