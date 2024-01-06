@@ -17,7 +17,7 @@
   left: 0;
   z-index: 1030;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 4px 20px 4px 12px;
   backdrop-filter: blur(5px);
@@ -142,7 +142,7 @@
 }
 
 .un { grid-area: un;
-  padding: 50px; /*what I've notice is that when you add padding to a grid, it becomes unresponsive*/
+  padding: 50px; /*what I've noticed is that when you add padding to a grid, it becomes unresponsive*/
 }
 
 .deux { grid-area: deux; 
