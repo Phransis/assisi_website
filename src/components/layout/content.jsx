@@ -46,9 +46,24 @@ function Content() {
           <div className="contact">Contact Us</div>
           <p className="love">Love to hear from you</p>
 
-          <label>Your name</label>
+          <label className="label">Your name</label>
           <p>
-            <input type="text"></input>
+            <input type="text" className="text-box"></input>
+          </p>
+
+          <label className="label">Your email</label>
+          <p>
+            <input type="email"  className="text-box"></input>
+          </p>
+
+          <label className="label">Subject</label>
+          <p>
+            <input type="text"  className="text-box"></input>
+          </p>
+
+          <label className="label">Your message (Optional)</label>
+          <p>
+            <input type="text"  className="big-text-box"></input>
           </p>
 
         </div>
