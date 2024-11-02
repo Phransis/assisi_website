@@ -119,9 +119,9 @@
 
 .big-text-box{
   height: 200px;
-  width: 500px;
+  width: 100%;
 }
-@media(mad-width: 600px){
+@media(max-width: 600px){
   .big-text-box{
     height: 50px;
     width: 10px;
